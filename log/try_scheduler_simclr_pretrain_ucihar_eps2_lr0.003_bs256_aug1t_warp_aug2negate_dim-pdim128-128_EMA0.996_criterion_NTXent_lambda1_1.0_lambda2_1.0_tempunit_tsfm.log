@@ -1,0 +1,552 @@
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+
+Epoch : 1
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='FCN', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='ucihar', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=128, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_ucihar_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+
+Epoch : 0
+Train Loss     : 5.5248
+Train Loss     : 5.5248
+Val Loss     : 5.6313
+Val Loss     : 5.6313
+
+Epoch : 1
+
+Epoch : 1
+Train Loss     : 4.8868
+Train Loss     : 4.8868
+Val Loss     : 6.7471
+Val Loss     : 6.7471
+Test Loss     : 5.6561
+Test Loss     : 5.6561
+
+Epoch : 0
+
+Epoch : 0
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch train loss     : 314.8000, train acc     : 51.2656
+epoch val loss     : 23.6483, val acc     : 68.3859
+epoch val loss     : 23.6483, val acc     : 68.3859
+
+Epoch : 1
+
+Epoch : 1
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch train loss     : 50.9138, train acc     : 70.9688
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch val loss     : 8.9950, val acc     : 71.5413
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+epoch test loss     : 10.2625, test acc     : 72.9126, miF     : 72.9126, maF     : 72.0629
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([[123., 159.,  46.,  10.,   1.,   0.],
+        [  1., 220.,  70.,   2.,   2.,   0.],
+        [  2.,  54., 207.,   2.,   0.,   0.],
+        [  0.,   0.,   0., 344.,  12.,   0.],
+        [  0.,   1.,   0., 181., 205.,   0.],
+        [  0.,   0.,   0.,  12.,   3., 403.]])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])
+tensor([0.3628, 0.7458, 0.7811, 0.9663, 0.5297, 0.9641])

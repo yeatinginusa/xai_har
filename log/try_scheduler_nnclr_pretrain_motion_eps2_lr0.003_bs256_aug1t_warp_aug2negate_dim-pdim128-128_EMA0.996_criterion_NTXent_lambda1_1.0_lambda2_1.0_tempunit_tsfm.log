@@ -1,0 +1,10 @@
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='Transformer', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='motion', device='Phones', framework='nnclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_nnclr_pretrain_motion_eps2_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=2, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 8.0697
+Val Loss : 6.4058
+
+Epoch : 1
+Train Loss : 4.6547
+Val Loss : 4.6622
+Test Loss     : 6.6688

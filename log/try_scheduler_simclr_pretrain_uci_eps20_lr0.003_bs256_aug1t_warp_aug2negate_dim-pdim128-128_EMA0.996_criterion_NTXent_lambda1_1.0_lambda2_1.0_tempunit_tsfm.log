@@ -1,0 +1,176 @@
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='Transformer', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps20_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=20, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='Transformer', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps20_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=20, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 7.0115
+Val Loss : 0.0000
+
+Epoch : 1
+Train Loss : 6.2415
+Val Loss : 0.0000
+
+Epoch : 2
+Train Loss : 6.2370
+Val Loss : 0.0000
+
+Epoch : 3
+Train Loss : 6.2365
+Val Loss : 0.0000
+
+Epoch : 4
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 5
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 6
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 7
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 8
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 9
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 10
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 11
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 12
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 13
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 14
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 15
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 16
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 17
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 18
+Train Loss : 6.2364
+Val Loss : 0.0000
+
+Epoch : 19
+Train Loss : 6.2364
+Val Loss : 0.0000
+Test Loss     : 6.2485
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='Transformer', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps20_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=20, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='Transformer', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps20_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=20, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 7.0115
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='Transformer', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps20_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=20, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 7.0115
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='ResNet18', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps20_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=20, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 6.4913
+Val Loss : 0.0000
+
+Epoch : 1
+Train Loss : 5.2860
+Val Loss : 0.0000
+
+Epoch : 2
+Train Loss : 4.8565
+Val Loss : 0.0000
+
+Epoch : 3
+Train Loss : 4.5584
+Val Loss : 0.0000
+
+Epoch : 4
+Train Loss : 4.0667
+Val Loss : 0.0000
+
+Epoch : 5
+Train Loss : 3.6086
+Val Loss : 0.0000
+
+Epoch : 6
+Train Loss : 3.5223
+Val Loss : 0.0000
+
+Epoch : 7
+Train Loss : 3.3223
+Val Loss : 0.0000
+
+Epoch : 8
+Train Loss : 3.1604
+Val Loss : 0.0000
+
+Epoch : 9
+Train Loss : 2.9779
+Val Loss : 0.0000
+
+Epoch : 10
+Train Loss : 2.8543
+Val Loss : 0.0000
+
+Epoch : 11
+Train Loss : 2.7337
+Val Loss : 0.0000
+
+Epoch : 12
+Train Loss : 2.6574
+Val Loss : 0.0000
+
+Epoch : 13
+Train Loss : 2.5653
+Val Loss : 0.0000
+
+Epoch : 14
+Train Loss : 2.4779
+Val Loss : 0.0000
+
+Epoch : 15
+Train Loss : 2.4148
+Val Loss : 0.0000
+
+Epoch : 16
+Train Loss : 2.3350
+Val Loss : 0.0000
+
+Epoch : 17
+Train Loss : 2.3101
+Val Loss : 0.0000
+
+Epoch : 18
+Train Loss : 2.2831
+Val Loss : 0.0000
+
+Epoch : 19
+Train Loss : 2.2917
+Val Loss : 0.0000
+Test Loss     : 6.4529

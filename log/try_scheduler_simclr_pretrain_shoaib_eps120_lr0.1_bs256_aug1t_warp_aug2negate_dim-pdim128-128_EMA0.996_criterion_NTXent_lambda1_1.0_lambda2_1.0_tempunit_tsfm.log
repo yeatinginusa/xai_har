@@ -1,0 +1,481 @@
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='ResNet18', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='shoaib', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.1, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_shoaib_eps120_lr0.1_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=3, n_epoch=120, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 6.1663
+Val Loss : 5.6138
+
+Epoch : 1
+Train Loss : 5.4175
+Val Loss : 5.6563
+
+Epoch : 2
+Train Loss : 4.6537
+Val Loss : 4.5720
+
+Epoch : 3
+Train Loss : 4.2799
+Val Loss : 4.4627
+
+Epoch : 4
+Train Loss : 3.9773
+Val Loss : 3.8358
+
+Epoch : 5
+Train Loss : 3.9266
+Val Loss : 3.7348
+
+Epoch : 6
+Train Loss : 3.6144
+Val Loss : 3.8600
+
+Epoch : 7
+Train Loss : 3.0286
+Val Loss : 3.0336
+
+Epoch : 8
+Train Loss : 2.6294
+Val Loss : 2.9746
+
+Epoch : 9
+Train Loss : 2.3631
+Val Loss : 2.6153
+
+Epoch : 10
+Train Loss : 2.1524
+Val Loss : 2.4929
+
+Epoch : 11
+Train Loss : 2.0003
+Val Loss : 2.0955
+
+Epoch : 12
+Train Loss : 1.7976
+Val Loss : 1.9090
+
+Epoch : 13
+Train Loss : 1.6243
+Val Loss : 1.9331
+
+Epoch : 14
+Train Loss : 1.5020
+Val Loss : 1.7378
+
+Epoch : 15
+Train Loss : 1.3539
+Val Loss : 1.7177
+
+Epoch : 16
+Train Loss : 1.2184
+Val Loss : 1.4811
+
+Epoch : 17
+Train Loss : 1.2516
+Val Loss : 1.3820
+
+Epoch : 18
+Train Loss : 1.1123
+Val Loss : 1.3494
+
+Epoch : 19
+Train Loss : 1.0591
+Val Loss : 1.2763
+
+Epoch : 20
+Train Loss : 0.9783
+Val Loss : 1.4570
+
+Epoch : 21
+Train Loss : 0.9008
+Val Loss : 1.1671
+
+Epoch : 22
+Train Loss : 0.8421
+Val Loss : 1.1711
+
+Epoch : 23
+Train Loss : 0.8298
+Val Loss : 1.4864
+
+Epoch : 24
+Train Loss : 0.8240
+Val Loss : 1.0017
+
+Epoch : 25
+Train Loss : 0.7827
+Val Loss : 1.0987
+
+Epoch : 26
+Train Loss : 0.7426
+Val Loss : 1.2659
+
+Epoch : 27
+Train Loss : 0.6923
+Val Loss : 1.0168
+
+Epoch : 28
+Train Loss : 0.6907
+Val Loss : 1.1513
+
+Epoch : 29
+Train Loss : 0.6622
+Val Loss : 1.1791
+
+Epoch : 30
+Train Loss : 0.6419
+Val Loss : 1.1612
+
+Epoch : 31
+Train Loss : 0.6556
+Val Loss : 0.9668
+
+Epoch : 32
+Train Loss : 0.6028
+Val Loss : 1.0795
+
+Epoch : 33
+Train Loss : 0.5685
+Val Loss : 1.1880
+
+Epoch : 34
+Train Loss : 0.5665
+Val Loss : 0.9436
+
+Epoch : 35
+Train Loss : 0.5843
+Val Loss : 1.1500
+
+Epoch : 36
+Train Loss : 0.5746
+Val Loss : 1.0737
+
+Epoch : 37
+Train Loss : 0.5311
+Val Loss : 1.0766
+
+Epoch : 38
+Train Loss : 0.5225
+Val Loss : 1.2009
+
+Epoch : 39
+Train Loss : 0.4914
+Val Loss : 0.9511
+
+Epoch : 40
+Train Loss : 0.4878
+Val Loss : 0.8935
+
+Epoch : 41
+Train Loss : 0.4580
+Val Loss : 0.8834
+
+Epoch : 42
+Train Loss : 0.4598
+Val Loss : 0.8639
+
+Epoch : 43
+Train Loss : 0.4455
+Val Loss : 0.9468
+
+Epoch : 44
+Train Loss : 0.4191
+Val Loss : 0.9542
+
+Epoch : 45
+Train Loss : 0.4243
+Val Loss : 1.0015
+
+Epoch : 46
+Train Loss : 0.4137
+Val Loss : 0.8378
+
+Epoch : 47
+Train Loss : 0.4165
+Val Loss : 0.8663
+
+Epoch : 48
+Train Loss : 0.4127
+Val Loss : 0.9016
+
+Epoch : 49
+Train Loss : 0.4062
+Val Loss : 0.8435
+
+Epoch : 50
+Train Loss : 0.3983
+Val Loss : 0.8199
+
+Epoch : 51
+Train Loss : 0.3842
+Val Loss : 0.7481
+
+Epoch : 52
+Train Loss : 0.3710
+Val Loss : 0.7222
+
+Epoch : 53
+Train Loss : 0.3744
+Val Loss : 0.7862
+
+Epoch : 54
+Train Loss : 0.3660
+Val Loss : 0.8012
+
+Epoch : 55
+Train Loss : 0.3703
+Val Loss : 0.7662
+
+Epoch : 56
+Train Loss : 0.3604
+Val Loss : 0.7215
+
+Epoch : 57
+Train Loss : 0.3538
+Val Loss : 0.7651
+
+Epoch : 58
+Train Loss : 0.3419
+Val Loss : 0.7693
+
+Epoch : 59
+Train Loss : 0.3491
+Val Loss : 0.7472
+
+Epoch : 60
+Train Loss : 0.3391
+Val Loss : 0.6462
+
+Epoch : 61
+Train Loss : 0.3200
+Val Loss : 0.6327
+
+Epoch : 62
+Train Loss : 0.3235
+Val Loss : 0.7040
+
+Epoch : 63
+Train Loss : 0.3054
+Val Loss : 0.7071
+
+Epoch : 64
+Train Loss : 0.3207
+Val Loss : 0.6089
+
+Epoch : 65
+Train Loss : 0.3052
+Val Loss : 0.6772
+
+Epoch : 66
+Train Loss : 0.2977
+Val Loss : 0.6254
+
+Epoch : 67
+Train Loss : 0.3030
+Val Loss : 0.5678
+
+Epoch : 68
+Train Loss : 0.3004
+Val Loss : 0.5761
+
+Epoch : 69
+Train Loss : 0.2859
+Val Loss : 0.6418
+
+Epoch : 70
+Train Loss : 0.2805
+Val Loss : 0.5941
+
+Epoch : 71
+Train Loss : 0.2877
+Val Loss : 0.6611
+
+Epoch : 72
+Train Loss : 0.2770
+Val Loss : 0.5793
+
+Epoch : 73
+Train Loss : 0.2813
+Val Loss : 0.6095
+
+Epoch : 74
+Train Loss : 0.2748
+Val Loss : 0.6074
+
+Epoch : 75
+Train Loss : 0.2657
+Val Loss : 0.5557
+
+Epoch : 76
+Train Loss : 0.2605
+Val Loss : 0.5619
+
+Epoch : 77
+Train Loss : 0.2613
+Val Loss : 0.6329
+
+Epoch : 78
+Train Loss : 0.2648
+Val Loss : 0.5539
+
+Epoch : 79
+Train Loss : 0.2535
+Val Loss : 0.5804
+
+Epoch : 80
+Train Loss : 0.2450
+Val Loss : 0.5310
+
+Epoch : 81
+Train Loss : 0.2525
+Val Loss : 0.5896
+
+Epoch : 82
+Train Loss : 0.2464
+Val Loss : 0.5118
+
+Epoch : 83
+Train Loss : 0.2452
+Val Loss : 0.5611
+
+Epoch : 84
+Train Loss : 0.2402
+Val Loss : 0.5762
+
+Epoch : 85
+Train Loss : 0.2493
+Val Loss : 0.5148
+
+Epoch : 86
+Train Loss : 0.2400
+Val Loss : 0.4943
+
+Epoch : 87
+Train Loss : 0.2361
+Val Loss : 0.5220
+
+Epoch : 88
+Train Loss : 0.2307
+Val Loss : 0.5467
+
+Epoch : 89
+Train Loss : 0.2277
+Val Loss : 0.5520
+
+Epoch : 90
+Train Loss : 0.2327
+Val Loss : 0.5006
+
+Epoch : 91
+Train Loss : 0.2284
+Val Loss : 0.4893
+
+Epoch : 92
+Train Loss : 0.2229
+Val Loss : 0.5079
+
+Epoch : 93
+Train Loss : 0.2207
+Val Loss : 0.4901
+
+Epoch : 94
+Train Loss : 0.2212
+Val Loss : 0.4924
+
+Epoch : 95
+Train Loss : 0.2212
+Val Loss : 0.5209
+
+Epoch : 96
+Train Loss : 0.2178
+Val Loss : 0.5214
+
+Epoch : 97
+Train Loss : 0.2152
+Val Loss : 0.4946
+
+Epoch : 98
+Train Loss : 0.2160
+Val Loss : 0.5016
+
+Epoch : 99
+Train Loss : 0.2143
+Val Loss : 0.4836
+
+Epoch : 100
+Train Loss : 0.2107
+Val Loss : 0.5156
+
+Epoch : 101
+Train Loss : 0.2134
+Val Loss : 0.4933
+
+Epoch : 102
+Train Loss : 0.2059
+Val Loss : 0.4878
+
+Epoch : 103
+Train Loss : 0.2064
+Val Loss : 0.5091
+
+Epoch : 104
+Train Loss : 0.2062
+Val Loss : 0.5165
+
+Epoch : 105
+Train Loss : 0.2042
+Val Loss : 0.4780
+
+Epoch : 106
+Train Loss : 0.2019
+Val Loss : 0.4981
+
+Epoch : 107
+Train Loss : 0.2038
+Val Loss : 0.5074
+
+Epoch : 108
+Train Loss : 0.2086
+Val Loss : 0.4674
+
+Epoch : 109
+Train Loss : 0.2007
+Val Loss : 0.4934
+
+Epoch : 110
+Train Loss : 0.2048
+Val Loss : 0.4821
+
+Epoch : 111
+Train Loss : 0.2030
+Val Loss : 0.4669
+
+Epoch : 112
+Train Loss : 0.1998
+Val Loss : 0.4807
+
+Epoch : 113
+Train Loss : 0.1991
+Val Loss : 0.4741
+
+Epoch : 114
+Train Loss : 0.2012
+Val Loss : 0.4885
+
+Epoch : 115
+Train Loss : 0.1996
+Val Loss : 0.4765
+
+Epoch : 116
+Train Loss : 0.1980
+Val Loss : 0.4866
+
+Epoch : 117
+Train Loss : 0.1981
+Val Loss : 0.4952
+
+Epoch : 118
+Train Loss : 0.1966
+Val Loss : 0.4880
+
+Epoch : 119
+Train Loss : 0.1933
+Val Loss : 0.4797

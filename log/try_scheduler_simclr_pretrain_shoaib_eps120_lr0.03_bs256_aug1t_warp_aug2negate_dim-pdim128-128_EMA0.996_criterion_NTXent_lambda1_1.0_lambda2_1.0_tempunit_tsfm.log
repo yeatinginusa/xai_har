@@ -1,0 +1,482 @@
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='Transformer', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='shoaib', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.03, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_shoaib_eps120_lr0.03_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=120, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 6.2745
+Val Loss : 6.2364
+
+Epoch : 1
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 2
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 3
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 4
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 5
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 6
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 7
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 8
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 9
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 10
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 11
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 12
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 13
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 14
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 15
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 16
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 17
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 18
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 19
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 20
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 21
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 22
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 23
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 24
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 25
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 26
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 27
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 28
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 29
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 30
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 31
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 32
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 33
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 34
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 35
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 36
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 37
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 38
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 39
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 40
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 41
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 42
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 43
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 44
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 45
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 46
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 47
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 48
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 49
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 50
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 51
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 52
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 53
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 54
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 55
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 56
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 57
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 58
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 59
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 60
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 61
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 62
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 63
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 64
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 65
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 66
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 67
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 68
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 69
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 70
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 71
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 72
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 73
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 74
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 75
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 76
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 77
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 78
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 79
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 80
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 81
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 82
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 83
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 84
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 85
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 86
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 87
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 88
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 89
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 90
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 91
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 92
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 93
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 94
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 95
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 96
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 97
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 98
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 99
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 100
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 101
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 102
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 103
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 104
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 105
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 106
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 107
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 108
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 109
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 110
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 111
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 112
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 113
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 114
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 115
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 116
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 117
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 118
+Train Loss : 6.2364
+Val Loss : 6.2364
+
+Epoch : 119
+Train Loss : 6.2364
+Val Loss : 6.2364
+Test Loss     : 6.2364

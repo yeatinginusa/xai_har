@@ -1,0 +1,164 @@
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='ResNet18', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.002, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps20_lr0.002_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=20, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 6.3207
+Val Loss : 0.0000
+
+Epoch : 1
+Train Loss : 4.9994
+Val Loss : 0.0000
+
+Epoch : 2
+Train Loss : 4.6266
+Val Loss : 0.0000
+
+Epoch : 3
+Train Loss : 4.3055
+Val Loss : 0.0000
+
+Epoch : 4
+Train Loss : 3.8465
+Val Loss : 0.0000
+
+Epoch : 5
+Train Loss : 3.4773
+Val Loss : 0.0000
+
+Epoch : 6
+Train Loss : 3.3509
+Val Loss : 0.0000
+
+Epoch : 7
+Train Loss : 3.1457
+Val Loss : 0.0000
+
+Epoch : 8
+Train Loss : 2.8952
+Val Loss : 0.0000
+
+Epoch : 9
+Train Loss : 2.6481
+Val Loss : 0.0000
+
+Epoch : 10
+Train Loss : 2.4585
+Val Loss : 0.0000
+
+Epoch : 11
+Train Loss : 2.2801
+Val Loss : 0.0000
+
+Epoch : 12
+Train Loss : 2.1261
+Val Loss : 0.0000
+
+Epoch : 13
+Train Loss : 2.0079
+Val Loss : 0.0000
+
+Epoch : 14
+Train Loss : 1.8715
+Val Loss : 0.0000
+
+Epoch : 15
+Train Loss : 1.7792
+Val Loss : 0.0000
+
+Epoch : 16
+Train Loss : 1.7169
+Val Loss : 0.0000
+
+Epoch : 17
+Train Loss : 1.6734
+Val Loss : 0.0000
+
+Epoch : 18
+Train Loss : 1.6475
+Val Loss : 0.0000
+
+Epoch : 19
+Train Loss : 1.6632
+Val Loss : 0.0000
+Test Loss     : 6.8217
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='ResNet18', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.002, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps20_lr0.002_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=20, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 6.3283
+Val Loss : 0.0000
+
+Epoch : 1
+Train Loss : 5.0068
+Val Loss : 0.0000
+
+Epoch : 2
+Train Loss : 4.6302
+Val Loss : 0.0000
+
+Epoch : 3
+Train Loss : 4.3234
+Val Loss : 0.0000
+
+Epoch : 4
+Train Loss : 3.8929
+Val Loss : 0.0000
+
+Epoch : 5
+Train Loss : 3.5767
+Val Loss : 0.0000
+
+Epoch : 6
+Train Loss : 3.3220
+Val Loss : 0.0000
+
+Epoch : 7
+Train Loss : 3.0528
+Val Loss : 0.0000
+
+Epoch : 8
+Train Loss : 2.7732
+Val Loss : 0.0000
+
+Epoch : 9
+Train Loss : 2.5442
+Val Loss : 0.0000
+
+Epoch : 10
+Train Loss : 2.3828
+Val Loss : 0.0000
+
+Epoch : 11
+Train Loss : 2.2357
+Val Loss : 0.0000
+
+Epoch : 12
+Train Loss : 2.0965
+Val Loss : 0.0000
+
+Epoch : 13
+Train Loss : 1.9524
+Val Loss : 0.0000
+
+Epoch : 14
+Train Loss : 1.8448
+Val Loss : 0.0000
+
+Epoch : 15
+Train Loss : 1.7461
+Val Loss : 0.0000
+
+Epoch : 16
+Train Loss : 1.6806
+Val Loss : 0.0000
+
+Epoch : 17
+Train Loss : 1.6501
+Val Loss : 0.0000
+
+Epoch : 18
+Train Loss : 1.6287
+Val Loss : 0.0000
+
+Epoch : 19
+Train Loss : 1.6473
+Val Loss : 0.0000
+Test Loss     : 6.8420

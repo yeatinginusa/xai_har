@@ -1,0 +1,127 @@
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='ResNet18', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.0002, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps10_lr0.0002_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=10, n_feature=9, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='ResNet18', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.0002, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps10_lr0.0002_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=10, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 5.3183
+Val Loss : 0.0000
+
+Epoch : 1
+Train Loss : 4.1681
+Val Loss : 0.0000
+
+Epoch : 2
+Train Loss : 3.6304
+Val Loss : 0.0000
+
+Epoch : 3
+Train Loss : 3.3540
+Val Loss : 0.0000
+
+Epoch : 4
+Train Loss : 3.0614
+Val Loss : 0.0000
+
+Epoch : 5
+Train Loss : 2.8977
+Val Loss : 0.0000
+
+Epoch : 6
+Train Loss : 2.7877
+Val Loss : 0.0000
+
+Epoch : 7
+Train Loss : 2.7050
+Val Loss : 0.0000
+
+Epoch : 8
+Train Loss : 2.6625
+Val Loss : 0.0000
+
+Epoch : 9
+Train Loss : 2.6195
+Val Loss : 0.0000
+Test Loss     : 6.5306
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='ResNet18', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.0002, lr_cls=0.003, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps10_lr0.0002_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=10, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 5.3186
+Val Loss : 0.0000
+
+Epoch : 1
+Train Loss : 4.1649
+Val Loss : 0.0000
+
+Epoch : 2
+Train Loss : 3.6292
+Val Loss : 0.0000
+
+Epoch : 3
+Train Loss : 3.3493
+Val Loss : 0.0000
+
+Epoch : 4
+Train Loss : 3.0640
+Val Loss : 0.0000
+
+Epoch : 5
+Train Loss : 2.8938
+Val Loss : 0.0000
+
+Epoch : 6
+Train Loss : 2.7879
+Val Loss : 0.0000
+
+Epoch : 7
+Train Loss : 2.7072
+Val Loss : 0.0000
+
+Epoch : 8
+Train Loss : 2.6606
+Val Loss : 0.0000
+
+Epoch : 9
+Train Loss : 2.6227
+Val Loss : 0.0000
+Test Loss     : 6.5284
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='ResNet18', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='simclr', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.0002, lr_cls=0.1, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_simclr_pretrain_uci_eps10_lr0.0002_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=6, n_epoch=10, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=1e-06)
+
+Epoch : 0
+Train Loss : 5.3191
+Val Loss : 0.0000
+
+Epoch : 1
+Train Loss : 4.1673
+Val Loss : 0.0000
+
+Epoch : 2
+Train Loss : 3.6301
+Val Loss : 0.0000
+
+Epoch : 3
+Train Loss : 3.3518
+Val Loss : 0.0000
+
+Epoch : 4
+Train Loss : 3.0656
+Val Loss : 0.0000
+
+Epoch : 5
+Train Loss : 2.8948
+Val Loss : 0.0000
+
+Epoch : 6
+Train Loss : 2.7887
+Val Loss : 0.0000
+
+Epoch : 7
+Train Loss : 2.7109
+Val Loss : 0.0000
+
+Epoch : 8
+Train Loss : 2.6638
+Val Loss : 0.0000
+
+Epoch : 9
+Train Loss : 2.6239
+Val Loss : 0.0000
+Test Loss     : 6.5336

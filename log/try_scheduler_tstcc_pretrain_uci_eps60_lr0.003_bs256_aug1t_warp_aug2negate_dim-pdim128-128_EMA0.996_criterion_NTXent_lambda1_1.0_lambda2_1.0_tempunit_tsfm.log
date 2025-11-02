@@ -1,0 +1,276 @@
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='Transformer', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='tstcc', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_tstcc_pretrain_uci_eps60_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=2, n_epoch=60, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=0.0003)
+
+Epoch : 0
+Train Loss : 24.9856
+Val Loss : 0.0000
+
+Epoch : 1
+Train Loss : 18.7545
+Val Loss : 0.0000
+
+Epoch : 2
+Train Loss : 17.1382
+Val Loss : 0.0000
+
+Epoch : 3
+Train Loss : 16.8028
+Val Loss : 0.0000
+
+Epoch : 4
+Train Loss : 16.5008
+Val Loss : 0.0000
+
+Epoch : 5
+Train Loss : 15.9863
+Val Loss : 0.0000
+
+Epoch : 6
+Train Loss : 15.4700
+Val Loss : 0.0000
+
+Epoch : 7
+Train Loss : 15.2554
+Val Loss : 0.0000
+
+Epoch : 8
+Train Loss : 15.0803
+Val Loss : 0.0000
+
+Epoch : 9
+Train Loss : 14.9465
+Val Loss : 0.0000
+
+Epoch : 10
+Train Loss : 14.7918
+Val Loss : 0.0000
+
+Epoch : 11
+Train Loss : 14.6703
+Val Loss : 0.0000
+
+Epoch : 12
+Train Loss : 14.4506
+Val Loss : 0.0000
+
+Epoch : 13
+Train Loss : 14.2878
+Val Loss : 0.0000
+
+Epoch : 14
+Train Loss : 14.1632
+Val Loss : 0.0000
+
+Epoch : 15
+Train Loss : 14.0132
+Val Loss : 0.0000
+
+Epoch : 16
+Train Loss : 13.9905
+Val Loss : 0.0000
+
+Epoch : 17
+Train Loss : 13.7447
+Val Loss : 0.0000
+
+Epoch : 18
+Train Loss : 13.7330
+Val Loss : 0.0000
+
+Epoch : 19
+Train Loss : 13.5141
+Val Loss : 0.0000
+
+Epoch : 20
+Train Loss : 13.0859
+Val Loss : 0.0000
+
+Epoch : 21
+Train Loss : 12.5915
+Val Loss : 0.0000
+
+Epoch : 22
+Train Loss : 12.2658
+Val Loss : 0.0000
+
+Epoch : 23
+Train Loss : 12.0299
+Val Loss : 0.0000
+
+Epoch : 24
+Train Loss : 12.0994
+Val Loss : 0.0000
+
+Epoch : 25
+Train Loss : 11.9416
+Val Loss : 0.0000
+
+Epoch : 26
+Train Loss : 11.6932
+Val Loss : 0.0000
+
+Epoch : 27
+Train Loss : 11.5247
+Val Loss : 0.0000
+
+Epoch : 28
+Train Loss : 11.6562
+Val Loss : 0.0000
+
+Epoch : 29
+Train Loss : 11.4098
+Val Loss : 0.0000
+
+Epoch : 30
+Train Loss : 11.4079
+Val Loss : 0.0000
+
+Epoch : 31
+Train Loss : 11.1858
+Val Loss : 0.0000
+
+Epoch : 32
+Train Loss : 11.2094
+Val Loss : 0.0000
+
+Epoch : 33
+Train Loss : 11.0062
+Val Loss : 0.0000
+
+Epoch : 34
+Train Loss : 10.9998
+Val Loss : 0.0000
+
+Epoch : 35
+Train Loss : 10.8937
+Val Loss : 0.0000
+
+Epoch : 36
+Train Loss : 10.6820
+Val Loss : 0.0000
+
+Epoch : 37
+Train Loss : 10.6757
+Val Loss : 0.0000
+
+Epoch : 38
+Train Loss : 10.6184
+Val Loss : 0.0000
+
+Epoch : 39
+Train Loss : 10.6274
+Val Loss : 0.0000
+
+Epoch : 40
+Train Loss : 10.3802
+Val Loss : 0.0000
+
+Epoch : 41
+Train Loss : 10.3774
+Val Loss : 0.0000
+
+Epoch : 42
+Train Loss : 10.2050
+Val Loss : 0.0000
+
+Epoch : 43
+Train Loss : 10.2499
+Val Loss : 0.0000
+
+Epoch : 44
+Train Loss : 10.1817
+Val Loss : 0.0000
+
+Epoch : 45
+Train Loss : 10.1171
+Val Loss : 0.0000
+
+Epoch : 46
+Train Loss : 10.1631
+Val Loss : 0.0000
+
+Epoch : 47
+Train Loss : 10.1028
+Val Loss : 0.0000
+
+Epoch : 48
+Train Loss : 10.0474
+Val Loss : 0.0000
+
+Epoch : 49
+Train Loss : 10.0132
+Val Loss : 0.0000
+
+Epoch : 50
+Train Loss : 9.9379
+Val Loss : 0.0000
+
+Epoch : 51
+Train Loss : 9.9632
+Val Loss : 0.0000
+
+Epoch : 52
+Train Loss : 9.9419
+Val Loss : 0.0000
+
+Epoch : 53
+Train Loss : 9.9671
+Val Loss : 0.0000
+
+Epoch : 54
+Train Loss : 9.9022
+Val Loss : 0.0000
+
+Epoch : 55
+Train Loss : 9.8299
+Val Loss : 0.0000
+
+Epoch : 56
+Train Loss : 9.8828
+Val Loss : 0.0000
+
+Epoch : 57
+Train Loss : 9.8827
+Val Loss : 0.0000
+
+Epoch : 58
+Train Loss : 9.9773
+Val Loss : 0.0000
+
+Epoch : 59
+Train Loss : 9.9679
+Val Loss : 0.0000
+Namespace(EMA=0.996, aug1='t_warp', aug2='negate', backbone='Transformer', batch_size=256, cases='random', criterion='NTXent', cuda=0, dataset='uci', device='Phones', framework='tstcc', lambda1=1.0, lambda2=1.0, len_sw=120, logdir='log/', lr=0.003, lr_cls=0.03, lr_mul=10.0, mmb_size=1024, model_name='try_scheduler_tstcc_pretrain_uci_eps60_lr0.003_bs256_aug1t_warp_aug2negate_dim-pdim128-128_EMA0.996_criterion_NTXent_lambda1_1.0_lambda2_1.0_tempunit_tsfm', n_class=2, n_epoch=60, n_feature=6, p=128, phid=128, plt=False, scheduler=True, split_ratio=0.2, target_domain='0', temp_unit='tsfm', weight_decay=0.0003)
+
+Epoch : 0
+Train Loss : 23.7083
+Val Loss : 0.0000
+
+Epoch : 1
+Train Loss : 18.4059
+Val Loss : 0.0000
+
+Epoch : 2
+Train Loss : 17.0975
+Val Loss : 0.0000
+
+Epoch : 3
+Train Loss : 16.7536
+Val Loss : 0.0000
+
+Epoch : 4
+Train Loss : 16.5522
+Val Loss : 0.0000
+
+Epoch : 5
+Train Loss : 16.3805
+Val Loss : 0.0000
+
+Epoch : 6
+Train Loss : 16.2928
+Val Loss : 0.0000
+
+Epoch : 7
+Train Loss : 16.0165
+Val Loss : 0.0000
+
+Epoch : 8
